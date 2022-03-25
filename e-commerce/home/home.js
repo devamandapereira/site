@@ -1,0 +1,1 @@
+alert ("Olá! Seja bem-vindo ao nosso site. Estamos em construção e você deve notar que o nosso serviço para dispositivos móveis ainda é não-responsivo. Não se preocupe! Priorize o sistema desktop e em breve você nos acessará através do seu celular com conforto.")

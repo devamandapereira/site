@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <script src="cadastro.js"></script>
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <header>
+        <ul>
+            <li><a href="/e-commerce/home/index.html">Voltar</a></li>
+        </ul>
+    </header>
+
+    <div class="main-container">
+        <div class="main">
+            <label for="nome">Nome de usuário<br>
+                <input type="text" class="caixa-de-dado">
+            </label><br>
+            <label for="email">Email<br>
+                <input type="email" class="caixa-de-dado">
+            </label><br>
+            <label for="senha">Senha<br>
+                <input type="password" class="caixa-de-dado" id="senha"><br>
+                <input type="checkbox" onclick="mostrarsenha()"> Mostrar senha
+            </label><br>
+            <input type="submit" value="Cadastrar" class="botao">
+        </div>
+    </div>
+</body>
+</html>
